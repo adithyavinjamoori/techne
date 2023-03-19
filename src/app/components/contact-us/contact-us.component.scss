@@ -1,0 +1,39 @@
+.contact-container{
+    background: #f4ede4;
+    h3{
+        background: #1b1b1b;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        margin: 0;
+    }
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1b1b1b;
+    border: none;
+    clip-path: ellipse(75% 100% at center top);
+    height: auto;
+    .btn{
+        height: 80px;
+        width: 80px;
+        margin: 0 20px;
+        &.linkedin{
+            background: url('../../../assets/logos/linkedin.svg') center no-repeat transparent;
+            background-size: 50px;
+        }
+        &.twitter{
+            background: url('../../../assets/logos/twitter.svg') center no-repeat transparent;
+            background-size: 60px;
+        }
+        &.email{
+            background: url('../../../assets/logos/email.svg') center no-repeat transparent;
+            background-size: 60px;
+        }
+        border-radius: 50%;
+    }
+
+}

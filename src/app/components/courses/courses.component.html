@@ -1,0 +1,21 @@
+<section class="courses-container">
+<h2 class="courses-title title">Courses Offered</h2>
+<section class="courses">
+    <mat-card class="card" *ngFor="let course of allCourses">
+        <mat-card-header>
+            <mat-card-title>{{course.title}}</mat-card-title>
+            <mat-card-subtitle>{{course.subTitle}}</mat-card-subtitle>
+            <img mat-card-sm-image [src]="course.imageURL" [alt]="course.title">
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+                {{course.desc}}
+            </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button>Know about course</button>
+        </mat-card-actions>
+    </mat-card>
+</section>
+
+</section>

@@ -1,0 +1,27 @@
+.events-container {
+    padding: 20px 15%;
+    background-color: #f4ede4;
+    color: #000;
+
+    .event-card {
+        background: #ecb22e;
+        width: 33%;
+        color: #1d1d1d;
+        padding: 10px;
+        border-radius: 10px;
+
+        h3 {
+            margin-bottom: 0px;
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

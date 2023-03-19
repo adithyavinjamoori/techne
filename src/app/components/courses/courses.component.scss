@@ -1,0 +1,46 @@
+.courses-container {
+    padding: 20px 15%;
+    background-color: #fff;
+    color: #000;
+}
+
+.courses {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    .card {
+        &:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 2rem rgb(0 0 0 / 20%)
+        }
+        margin: 1%;
+        flex: 0 0 31.3%;
+        box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
+        background: #fff;
+
+        .mat-mdc-card-content {
+            font-size: 12px;
+        }
+
+        .mat-mdc-card-subtitle {
+            color: #454245;
+            font-size: 11px;
+        }
+
+        .mdc-button {
+            color: #1264a3;
+        }
+    }
+
+    .mat-mdc-card-header {
+        justify-content: space-between;
+        align-items: center;
+
+        .mat-mdc-card-sm-image {
+            width: auto;
+        }
+    }
+}
