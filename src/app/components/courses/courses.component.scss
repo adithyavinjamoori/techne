@@ -21,12 +21,23 @@
         box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
         background: #fff;
 
+        &.powerbi{
+            background: #4a154b;
+            color: #fff;
+        }
+        &.angular{
+            background: #ecb22e;
+
+        }
+        &.power-app{
+            background: #2f8ab7;
+        }
+
         .mat-mdc-card-content {
             font-size: 12px;
         }
 
         .mat-mdc-card-subtitle {
-            color: #454245;
             font-size: 11px;
         }
 
