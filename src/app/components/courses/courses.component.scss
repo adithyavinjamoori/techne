@@ -1,7 +1,9 @@
 .courses-container {
-    padding: 20px 15%;
+    padding: 20px 15% 40px;
     background-color: #fff;
     color: #000;
+    border: 2px solid #ebeaeb;
+    border-width: 1px 0;
 }
 
 .courses {
@@ -12,25 +14,44 @@
 
 
     .card {
-        &:hover{
+        &:hover {
             transform: scale(1.05);
             box-shadow: 0 0 2rem rgb(0 0 0 / 20%)
         }
+
         margin: 1%;
         flex: 0 0 31.3%;
         box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
         background: #fff;
 
-        &.powerbi{
+        &.powerbi {
             background: #4a154b;
             color: #fff;
-        }
-        &.angular{
-            background: #ecb22e;
+            .mat-mdc-card-subtitle {
+                color: #fff;
+            }
 
+            .mat-mdc-button {
+                color: #36c5f0;
+            }
         }
-        &.power-app{
+
+        &.angular {
+            background: #ecb22e;
+            color: #1d1d1d;
+            .mat-mdc-card-subtitle,
+            .mat-mdc-button {
+                color: #1d1d1d;
+            }
+        }
+
+        &.power-app {
             background: #2f8ab7;
+            color: #fff;
+            .mat-mdc-card-subtitle,
+            .mat-mdc-button {
+                color: #fff;
+            }
         }
 
         .mat-mdc-card-content {
@@ -42,7 +63,7 @@
         }
 
         .mdc-button {
-            color: #1264a3;
+            color: #fff;
         }
     }
 
