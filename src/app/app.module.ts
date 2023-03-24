@@ -21,6 +21,10 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatTabsModule } from '@angular/material/tabs';
+import { AboutPowerBiComponent } from './components/about-power-bi/about-power-bi.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatTableModule} from '@angular/material/table';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +36,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     CoursesComponent,
     EventsComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    AboutPowerBiComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +47,9 @@ import { MatTabsModule } from '@angular/material/tabs';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
+    MatTableModule,
     MatListModule,
+    MatDialogModule,
     MatButtonModule,
     MatIconModule,
     RouterModule,
