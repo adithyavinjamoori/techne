@@ -26,3 +26,12 @@
         }
     }
 }
+
+@media screen and (max-width: 450px) {
+    .events-container {
+        .event-card{
+            width: 100%;
+        }
+    }
+
+}

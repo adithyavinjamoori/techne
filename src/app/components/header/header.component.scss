@@ -20,3 +20,12 @@ header{
     z-index: 5;
     top: 0;
 }
+
+::ng-deep{
+    @media screen and (max-width: 450px) {
+        .mdc-button__label {
+            font-size: 10px;
+        }
+    }
+}
+

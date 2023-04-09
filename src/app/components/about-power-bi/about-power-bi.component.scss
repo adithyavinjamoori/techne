@@ -7,3 +7,22 @@
         padding: 10px;
     }
 }
+
+.button-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 0 20px;
+    .btns{
+        display: flex;
+        align-items: center;
+        .btn{
+            background-size: 30px;
+            &.email{
+                position: relative;
+                top: 2px;
+            }
+        }
+    }
+}

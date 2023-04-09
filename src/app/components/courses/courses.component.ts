@@ -21,6 +21,9 @@ export class CoursesComponent {
   openCourse(course:string){
     if(course == "Power BI"){
       const dialogRef = this.dialog.open(AboutPowerBiComponent);
+    } else{
+      window.open('mailto:powerbyosh@gmail.com?subject=Query Regarding Techne&body=Hi There, I would like to know about the program offered.');
+
     }
   }
 

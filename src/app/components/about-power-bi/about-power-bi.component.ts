@@ -20,5 +20,14 @@ export class AboutPowerBiComponent {
       cell: (element: any) => `${element.name}`,
     }
   ]
+
+  connectWithUsPowerBI(){
+    window.open("https://twitter.com/ByTheTechne")
+  }
+
+  connectWithUsPowerBIEmail(){
+    window.open('mailto:powerbyosh@gmail.com?subject=Query Regarding Techne&body=Hi There,\n I would like to know about the Power BI sessions');
+
+  }
 }
 

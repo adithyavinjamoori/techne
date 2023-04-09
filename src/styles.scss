@@ -15,3 +15,23 @@ body {
 h2.title{
     margin: 10px 0 10px;
 }
+
+.btn {
+    height: 80px;
+    width: 80px;
+    margin: 0 20px;
+
+    &.linkedin {
+        background: url('../src/assets/logos/linkedin.svg') center no-repeat transparent;
+    }
+
+    &.twitter {
+        background: url('../src/assets/logos/twitter.svg') center no-repeat transparent;
+    }
+
+    &.email {
+        background: url('../src/assets/logos/email.svg') center no-repeat transparent;
+    }
+
+    border-radius: 50%;
+}

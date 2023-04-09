@@ -1,22 +1,40 @@
-.info-card{
+.info-card {
   display: flex;
   align-items: center;
-  h2{
+
+  h2 {
     font-size: 40px;
   }
-  .img-container{
+
+  .img-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    img{
+
+    img {
       width: 75%;
       border-radius: 40px;
     }
   }
 }
 
-.about-site{
+.about-site {
   padding: 20px 15%;
   background-color: #f4ede4;
   color: #000;
+}
+
+@media screen and (max-width: 450px) {
+  .about-site {
+    padding: 20px 2%;
+  }
+
+  .info-card {
+    h2 {
+      font-size: 25px;
+    }
+    img{
+      width: 95%;
+    }
+  }
 }

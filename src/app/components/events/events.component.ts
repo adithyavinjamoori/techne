@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class EventsComponent {
 
+  register(){
+    window.open('mailto:powerbyosh@gmail.com?subject=Query Regarding Techne&body=Hi There, I would like to register for the power BI workshop.');
+  }
 }

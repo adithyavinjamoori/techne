@@ -76,3 +76,15 @@
         }
     }
 }
+
+@media screen and (max-width: 450px) {
+    .courses-container{
+        padding: 20px 5% 20px;
+    }
+    .courses{
+        display: block;
+        .card{
+            margin-bottom: 20px;
+        }
+    }
+}
