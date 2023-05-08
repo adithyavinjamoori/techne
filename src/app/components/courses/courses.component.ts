@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { courses } from 'src/assets/files/courses';
+import { courses } from '../../../assets/files/courses';
 import {MatDialog} from '@angular/material/dialog';
 import { AboutPowerBiComponent } from '../about-power-bi/about-power-bi.component';
 

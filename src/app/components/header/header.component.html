@@ -2,14 +2,14 @@
     <mat-toolbar color="primary">
         <mat-toolbar-row>
             <h1>
-                <img src="../../../assets/logos/logo.png" style="    height: 60px;"><span> Techne </span></h1>
+                <img src="../../../assets/logos/logo.png" style="    height: 40px;"><span></span></h1>
             <span class="menu-spacer"></span>
             <div class="nav-items">
-                <a mat-button href="#carousel"> Home </a>
-                <a mat-button href="#courses" >Courses</a>
-                <a mat-button href="#events" >Events</a>
+                <a mat-button routerLink="home" routerLinkActive="active"> Home </a>
+                <a mat-button routerLink="courses" routerLinkActive="active" >Courses</a>
+                <a mat-button routerLink="events" routerLinkActive="active" >Events</a>
                 <!-- <a mat-button href="#about-us" > About Us </a> -->
-                <a mat-button  href="#contact-us" > Contact Us </a>
+                <a mat-button routerLink="contact-us" routerLinkActive="active" > Contact Us </a>
             </div>
         </mat-toolbar-row>
     </mat-toolbar>

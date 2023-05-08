@@ -1,5 +1,10 @@
 .contact-container {
     background: #f4ede4;
+    padding-top: 40px;
+
+    .container{
+        text-align: center;
+    }
 
     h3 {
         background: #1b1b1b;
@@ -16,7 +21,6 @@
     justify-content: center;
     background: #1b1b1b;
     border: none;
-    clip-path: ellipse(75% 100% at center top);
     height: auto;
 
 }

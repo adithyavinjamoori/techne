@@ -18,6 +18,20 @@ export const courses = [
         subTitle:"Custom Business Solutions",
         desc:"Power Apps is a low-code platform developed by Microsoft that allows users to build custom business applications without requiring extensive coding knowledge.",
         imageURL:"power-apps.png"
+    },
+    {
+        title:"SQL",
+        class:"sql",
+        subTitle:"Structured Query Language",
+        desc:"SQL (Structured Query Language) is a programming language used for managing and querying relational databases. It allows users to retrieve, insert, update and delete data in a database.",
+        imageURL:"SQL-logo.png"
+    },
+    {
+        title:"DevOps",
+        class:"devops",
+        subTitle:"Agile software delivery.",
+        desc:"DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently and reliably through automation and collaboration.",
+        imageURL:"aws.png"
     }
     // , {
     //     title:"Web Technologies",

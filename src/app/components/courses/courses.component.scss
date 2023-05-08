@@ -1,6 +1,5 @@
 .courses-container {
     padding: 20px 15% 40px;
-    background-color: #fff;
     color: #000;
     border: 2px solid #ebeaeb;
     border-width: 1px 0;
@@ -24,7 +23,7 @@
         box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
         background: #fff;
 
-        &.powerbi {
+        &.powerbi,&.devops {
             background: #4a154b;
             color: #fff;
             .mat-mdc-card-subtitle {
@@ -36,7 +35,7 @@
             }
         }
 
-        &.angular {
+        &.angular, &.sql {
             background: #ecb22e;
             color: #1d1d1d;
             .mat-mdc-card-subtitle,

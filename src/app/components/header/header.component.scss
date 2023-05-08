@@ -2,11 +2,17 @@
     align-items: center;
     h1{
         margin: 0;
+        span{
+            text-indent: -9999px;
+        }
     }
     .nav-items{
         flex: 1;
         display: flex;
         justify-content: flex-end;
+        .active{
+            border-bottom: 2px solid #ccc;
+        }
     }
 }
 
