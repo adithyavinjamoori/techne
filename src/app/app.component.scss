@@ -8,3 +8,11 @@
 .footer{
     height: 10vh;
 }
+
+::ng-deep {
+    @media screen and (max-width: 450px) {
+        .header{
+            height: auto !important;
+        }
+    }
+}

@@ -13,7 +13,9 @@
             </p>
         </mat-card-content>
         <mat-card-actions>
-            <button mat-button (click)="openCourse(course.title)">Know about course</button>
+            <button mat-button *ngIf="course.aboutURI" [routerLink]="course.aboutURI">Know about course</button>
+
+            <button mat-button *ngIf="!course.aboutURI"  (click)="openCourse(course.title)">Know about course</button>
         </mat-card-actions>
     </mat-card>
 </section>

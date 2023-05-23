@@ -1,37 +1,46 @@
 .mat-toolbar-row {
     align-items: center;
-    h1{
+
+    h1 {
         margin: 0;
-        span{
+
+        span {
             text-indent: -9999px;
         }
     }
-    .nav-items{
+
+    .nav-items {
         flex: 1;
         display: flex;
         justify-content: flex-end;
-        .active{
+
+        .active {
             border-bottom: 2px solid #ccc;
         }
     }
 }
 
-.mat-toolbar{
+.mat-toolbar {
     box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
 }
 
-header{
+header {
     position: fixed;
     width: 100%;
     z-index: 5;
     top: 0;
 }
 
-::ng-deep{
+::ng-deep {
     @media screen and (max-width: 450px) {
         .mdc-button__label {
             font-size: 10px;
         }
+
+        .mat-toolbar-row {
+            img {
+                height: 25px !important;
+            }
+        }
     }
 }
-

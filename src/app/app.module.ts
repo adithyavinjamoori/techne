@@ -21,9 +21,13 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatTabsModule } from '@angular/material/tabs';
-import { AboutPowerBiComponent } from './components/about-power-bi/about-power-bi.component';
+import { AboutPowerBiComponent } from './components/about-courses/about-power-bi/about-power-bi.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatTableModule} from '@angular/material/table';
+import { AboutAngularComponent } from './components/about-courses/about-angular/about-angular.component';
+import { AboutSqlComponent } from './components/about-courses/about-sql/about-sql.component';
+import { AboutPowerappsComponent } from './components/about-courses/about-powerapps/about-powerapps.component';
+import { AboutDevopsComponent } from './components/about-courses/about-devops/about-devops.component';
 
 
 @NgModule({
@@ -37,7 +41,11 @@ import {MatTableModule} from '@angular/material/table';
     EventsComponent,
     AboutUsComponent,
     ContactUsComponent,
-    AboutPowerBiComponent
+    AboutPowerBiComponent,
+    AboutAngularComponent,
+    AboutSqlComponent,
+    AboutPowerappsComponent,
+    AboutDevopsComponent
   ],
   imports: [
     BrowserModule,

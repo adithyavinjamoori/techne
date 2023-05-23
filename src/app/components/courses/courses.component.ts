@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { courses } from '../../../assets/files/courses';
 import {MatDialog} from '@angular/material/dialog';
-import { AboutPowerBiComponent } from '../about-power-bi/about-power-bi.component';
+import { AboutPowerBiComponent } from '../about-courses/about-power-bi/about-power-bi.component';
 
 
 @Component({

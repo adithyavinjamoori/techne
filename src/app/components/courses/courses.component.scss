@@ -23,7 +23,7 @@
         box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
         background: #fff;
 
-        &.powerbi,&.devops {
+        &.powerbi {
             background: #4a154b;
             color: #fff;
             .mat-mdc-card-subtitle {
@@ -33,6 +33,13 @@
             .mat-mdc-button {
                 color: #36c5f0;
             }
+        }
+
+        &.devops{
+            .mat-mdc-button {
+                color: #1d1d1d;
+            }
+
         }
 
         &.angular, &.sql {

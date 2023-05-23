@@ -1,15 +1,17 @@
 <header>
     <mat-toolbar color="primary">
         <mat-toolbar-row>
-            <h1>
-                <img src="../../../assets/logos/logo.png" style="    height: 40px;"><span></span></h1>
+            <h1 >
+                <a routerLink="home">
+                <img src="../../../assets/logos/logo.png" style="height: 40px;"><span></span>
+            </a></h1>
             <span class="menu-spacer"></span>
             <div class="nav-items">
                 <a mat-button routerLink="home" routerLinkActive="active"> Home </a>
                 <a mat-button routerLink="courses" routerLinkActive="active" >Courses</a>
                 <a mat-button routerLink="events" routerLinkActive="active" >Events</a>
                 <!-- <a mat-button href="#about-us" > About Us </a> -->
-                <a mat-button routerLink="contact-us" routerLinkActive="active" > Contact Us </a>
+                <a mat-button (click)="openContactUs()" > Contact Us </a>
             </div>
         </mat-toolbar-row>
     </mat-toolbar>

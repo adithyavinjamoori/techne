@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  openContactUs(){
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSd_7Nd0Qrrzb0ypob7zNrjEa1v8A8wg-aadxLaPbwmlGaW4gg/viewform")
+  }
 }
