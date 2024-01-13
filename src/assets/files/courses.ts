@@ -15,12 +15,12 @@ export const courses = [
         imageURL:"Angular.png",
         aboutURI:"/about-angular"
     },{
-        title:"Power Apps",
-        class:"power-app",
-        subTitle:"Custom Business Solutions",
-        desc:"Power Apps is a low-code platform developed by Microsoft that allows users to build custom business applications without requiring extensive coding knowledge.",
-        imageURL:"power-apps.png",
-        aboutURI:"/about-powerapps"
+        title:"Azure",
+        class:"azure",
+        subTitle:"Cloud computing platform",
+        desc:"Azure is Microsoft's cloud computing platform, offering a range of services, including virtual computing, storage, analytics, and more, to help businesses build, deploy, and manage applications",
+        imageURL:"Azure.svg",
+        aboutURI:"/about-azure"
     },
     {
         title:"SQL",
@@ -29,6 +29,14 @@ export const courses = [
         desc:"SQL (Structured Query Language) is a programming language used for managing and querying relational databases. It allows users to retrieve, insert, update and delete data in a database.",
         imageURL:"SQL-logo.png",
         aboutURI:"/about-sql"
+    },
+    {
+        title:"Snowflake",
+        class:"snowflake",
+        subTitle:"Data Cloud",
+        desc:"Snowflake Data Cloud is a cloud-based platform that enables organizations to store, process, and analyze large volumes of data from multiple sources in a secure, scalable, and efficient manner.",
+        imageURL:"snowflake.png",
+        aboutURI:"/about-snowflake"
     }
     // {
     //     title:"DevOps",

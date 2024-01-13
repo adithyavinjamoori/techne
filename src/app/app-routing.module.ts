@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutAngularComponent } from './components/about-courses/about-angular/about-angular.component';
+import { AboutAzureComponent } from './components/about-courses/about-azure/about-azure.component';
 import { AboutPowerBiComponent } from './components/about-courses/about-power-bi/about-power-bi.component';
 import { AboutPowerappsComponent } from './components/about-courses/about-powerapps/about-powerapps.component';
+import { AboutSnowflakeComponent } from './components/about-courses/about-snowflake/about-snowflake.component';
 import { AboutSqlComponent } from './components/about-courses/about-sql/about-sql.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { CoursesComponent } from './components/courses/courses.component';
@@ -20,8 +22,8 @@ const routes: Routes = [
   { path: 'about-angular', component: AboutAngularComponent },
   { path: 'about-sql', component: AboutSqlComponent },
   { path: 'about-powerapps', component: AboutPowerappsComponent },
-
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: 'about-snowflake', component: AboutSnowflakeComponent },
+  { path: 'about-azure', component: AboutAzureComponent },
 ];
 
 @NgModule({

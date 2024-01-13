@@ -1,0 +1,46 @@
+.body {
+    color: #1b1b1b;
+    padding: 30px 10%;
+}
+
+.table {
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+
+    td,
+    th {
+        vertical-align: middle;
+        padding: 10px;
+    }
+}
+
+.tag-line {
+    font-family: Roboto;
+    color: #2d2f31
+}
+
+.tag-line-container {
+    margin-top: 14pt;
+    margin-bottom: 14pt;
+    line-height: normal;
+    font-size: 10.5pt
+}
+
+.li-tag-line {
+    margin-left: 27.6pt;
+    line-height: normal;
+    padding-left: 8.4pt;
+    font-family: serif;
+    font-size: 10pt;
+    color: #2d2f31
+}
+
+.li-span-tag-line{
+    font-family:Roboto; font-size:10.5pt
+}
+
+.ul-tag-line {
+    margin: 0pt;
+    padding-left: 0pt
+}

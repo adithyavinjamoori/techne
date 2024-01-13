@@ -23,7 +23,7 @@
         box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
         background: #fff;
 
-        &.powerbi {
+        &.powerbi,&.snowflake {
             background: #4a154b;
             color: #fff;
             .mat-mdc-card-subtitle {
@@ -42,7 +42,7 @@
 
         }
 
-        &.angular, &.sql {
+        &.azure, &.sql {
             background: #ecb22e;
             color: #1d1d1d;
             .mat-mdc-card-subtitle,
@@ -51,7 +51,7 @@
             }
         }
 
-        &.power-app {
+        &.power-app,&.angular {
             background: #2f8ab7;
             color: #fff;
             .mat-mdc-card-subtitle,

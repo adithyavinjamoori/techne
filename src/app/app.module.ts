@@ -28,6 +28,8 @@ import { AboutAngularComponent } from './components/about-courses/about-angular/
 import { AboutSqlComponent } from './components/about-courses/about-sql/about-sql.component';
 import { AboutPowerappsComponent } from './components/about-courses/about-powerapps/about-powerapps.component';
 import { AboutDevopsComponent } from './components/about-courses/about-devops/about-devops.component';
+import { AboutSnowflakeComponent } from './components/about-courses/about-snowflake/about-snowflake.component';
+import { AboutAzureComponent } from './components/about-courses/about-azure/about-azure.component';
 
 
 @NgModule({
@@ -45,7 +47,9 @@ import { AboutDevopsComponent } from './components/about-courses/about-devops/ab
     AboutAngularComponent,
     AboutSqlComponent,
     AboutPowerappsComponent,
-    AboutDevopsComponent
+    AboutDevopsComponent,
+    AboutSnowflakeComponent,
+    AboutAzureComponent
   ],
   imports: [
     BrowserModule,
